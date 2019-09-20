@@ -1,4 +1,29 @@
+#concertTicket, #mobilityPage {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #mapPlacement {
-    height: 100vh;
-    width: 100vw;
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+#car, #tram, #train, #bus, #bike, #step, #waterbus {
+    width: 80px;
+    height: 80px;
+}
+#car:hover, #tram:hover, #train:hover, #bus:hover, #bike:hover, #step:hover, #waterbus:hover {
+    cursor: pointer;
+}
+
+#eco {
+    width: 40px;
+    height: 40px;
+}
+
+.condition {
+    color: rgb(146, 34, 34);
+    font-size: 12px;
 }
