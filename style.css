@@ -16,6 +16,7 @@
 }
 #car:hover, #tram:hover, #train:hover, #bus:hover, #bike:hover, #step:hover, #waterbus:hover {
     cursor: pointer;
+    box-shadow: 2px 2px 2px;
 }
 
 #eco {
@@ -26,4 +27,8 @@
 .condition {
     color: rgb(146, 34, 34);
     font-size: 12px;
+}
+
+img {
+    background: transparent;
 }

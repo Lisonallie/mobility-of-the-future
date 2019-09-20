@@ -1,6 +1,7 @@
 var mapContainer = document.getElementById('mapPlacement');
 let apikey = "LTzX9tBeBAvAef7dz4mX52t8KUYdBCcwbJY_lm1iJ4g";
 
+
 var platform = new H.service.Platform({
     apikey: apikey
   });
@@ -25,15 +26,15 @@ var platform = new H.service.Platform({
   // Create the default UI components
   var ui = H.ui.UI.createDefault(map, defaultLayers);
 
-  function calculateRouteFromAtoB (platform) {
+  function calculateRouteFromAtoB (modeOfTransport) {
     var router = platform.getRoutingService(),
       routeRequestParams = {
-        mode: 'fastest;car',
+        mode: 'fastest;' + modeOfTransport,
         representation: 'display',
         routeattributes : 'waypoints,summary,shape,legs',
         maneuverattributes: 'direction,action',
-        waypoint0: '52.5160,13.3779', // Brandenburg Gate
-        waypoint1: '52.5206,13.3862'  // Friedrichstraße Railway Station
+        waypoint0: '51.24304,4.4747', // Brandenburg Gate
+        waypoint1: '51.23065,4.44271'  // Friedrichstraße Railway Station
       };
   
   
@@ -44,7 +45,10 @@ var platform = new H.service.Platform({
     );
   }
 
-
+  function addMarkersToMap(map) {
+    var parisMarker = new H.map.Marker({lat:51.24304, lng:51.23065});
+    map.addObject(parisMarker);
+  }
 
 
   function onSuccess(result) {
