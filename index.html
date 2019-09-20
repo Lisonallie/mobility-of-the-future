@@ -20,23 +20,23 @@
   </head>
   <body>
     <container id="concertTicket">
-      <h3 id="reservedHeading">Thank you for booking!</h3>
+      <h4 id="reservedHeading">Thank you for booking!</h4>
       <p id="reserved" class="btn btn-primary">Personalize your ticket(s)</p>
     </container>
    
 
 
-    <container id="mobilityPage">
-      <h3 id="mobilityOptions">Start your mobility experience now.</h3>
+    <container id="mobilityPage" class="hide">
+      <h4 id="mobilityOptions">Start your mobility experience now.</h4>
       <div id="mapPlacement"></div>
       <div id="imagesContainer">
         <img onclick="calculateRouteFromAtoB('publicTransport')" id="tram" src="images/icons/tram.png" /><img id="eco" src="images/icons/eco.png" /> 
-        <img id="train" src="images/icons/train.png" /><img id="eco" src="images/icons/eco.png" />
-        <img id="bus" src="images/icons/bus.png" /><img id="eco" src="images/icons/eco.png" />
-        <img id="waterbus" src="images/icons/waterbus.png" /><img id="eco" src="images/icons/eco.png" /> 
-        <img id="bike" src="images/icons/bike.png" /><img id="eco" src="images/icons/eco.png" />
-        <img id="step" src="images/icons/step.png" /> <span class="condition">OR</span>
-        <img id="car" src="images/icons/car.png" />
+        <img onclick="calculateRouteFromAtoB('publicTransport')" id="train" src="images/icons/train.png" /><img id="eco" src="images/icons/eco.png" />
+        <img onclick="calculateRouteFromAtoB('publicTransport')" id="bus" src="images/icons/bus.png" /><img id="eco" src="images/icons/eco.png" />
+        <img onclick="calculateRouteFromAtoB('publicTransport')" id="waterbus" src="images/icons/waterbus.png" /><img id="eco" src="images/icons/eco.png" /> 
+        <img onclick="calculateRouteFromAtoB('bicycle')" id="bike" src="images/icons/bike.png" /><img id="eco" src="images/icons/eco.png" />
+        <img onclick="calculateRouteFromAtoB('bicycle')" id="step" src="images/icons/step.png" /> <span class="condition">OR</span>
+        <img onclick="calculateRouteFromAtoB('car')" id="car" src="images/icons/car.png" />
       </div>
     </container>
   
