@@ -1,6 +1,6 @@
 var mapContainer = document.getElementById('mapPlacement');
 let apikey = "LTzX9tBeBAvAef7dz4mX52t8KUYdBCcwbJY_lm1iJ4g";
-let personalizeButton = document.getElementById("reserved");
+let reserved = document.getElementById("reserved");
 let openMapDiv = document.getElementById("mobilityPage");
 
 var platform = new H.service.Platform({
@@ -99,5 +99,6 @@ var platform = new H.service.Platform({
   reserved.addEventListener("click", openMap);
 
   function openMap() {
+    console.log(reserved)
     openMapDiv.classList.toggle("show");
   }
