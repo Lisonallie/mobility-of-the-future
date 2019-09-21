@@ -79,8 +79,8 @@ var platform = new H.service.Platform({
     }
     polyline = new H.map.Polyline(lineString, {
       style: {
-        lineWidth: 4,
-        strokeColor: 'rgba(0, 128, 255, 0.7)'
+        lineWidth: 3,
+        strokeColor: 'rgba(0, 51, 204, 0.7)'
       }
     });
     // Add the polyline to the map
