@@ -1,6 +1,6 @@
 ### Mobility of the Future
 
-[Here](https://lisonallie.github.io/mobility-of-the-future/) is a demo page I made for the idea my group came up with at the [Mobility of the Future Hackathon](mobilityofthefuture.be). Our idea was for Sportpaleis Group in connection with how they can improve the mobility around their different events to enhance the customer experience from where it is now.
+[Here](https://lisonallie.github.io/mobility-of-the-future/) is a demo page I made for the idea my group came up with at the [Mobility of the Future Hackathon](https://motf19.mobilityofthefuture.be). Our idea was for Sportpaleis Group in connection with how they can improve the mobility around their different events to enhance the customer experience from where it is now.
 
 This was a two-day hackathon in Hasselt focusing mainly on the idea produced rather than the developed outcome. Nevertheless, we received tools from experts at the event to make our idea come to life.
 
