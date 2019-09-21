@@ -12,7 +12,7 @@ var platform = new H.service.Platform({
   //Step 2: initialize a map - this map is centered over Berlin
   var map = new H.Map(mapContainer,
     defaultLayers.vector.normal.map,{
-    center: {lat:52.5160, lng:13.3779},
+    center: {lat:51.23065, lng:4.44271},
     zoom: 13,
     pixelRatio: window.devicePixelRatio || 1
   });
